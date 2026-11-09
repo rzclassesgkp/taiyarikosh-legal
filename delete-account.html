@@ -1,87 +1,137 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Delete your account | TaiyariKosh</title>
 <meta name="description" content="Delete your account of TaiyariKosh by KS Infotech Labs."><meta name="robots" content="index,follow"><meta name="theme-color" content="#14369a">
+<link rel="canonical" href="https://rzclassesgkp.github.io/taiyarikosh-legal/delete-account.html">
+<meta property="og:type" content="website"><meta property="og:site_name" content="TaiyariKosh"><meta property="og:title" content="Delete your account | TaiyariKosh">
+<meta property="og:description" content="Delete your account of TaiyariKosh by KS Infotech Labs."><meta property="og:url" content="https://rzclassesgkp.github.io/taiyarikosh-legal/delete-account.html"><meta property="og:image" content="https://rzclassesgkp.github.io/taiyarikosh-legal/logo-hero.png">
+<meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://rzclassesgkp.github.io/taiyarikosh-legal/logo-hero.png">
 <link rel="icon" type="image/png" href="favicon.png"><link rel="apple-touch-icon" href="logo-hero.png">
 <style>
-:root{--bg:#f4f6fb;--surface:#fff;--card:#f6f8fd;--fg:#334155;--head:#0f1b44;--mute:#64748b;--line:#e3e8f2;--brand:#1b3a99;--brand-soft:#eaf0ff;--accent:#f26a00;--gold:#ffc531;--warn:#b45309;--warn-bg:#fffbeb;--shadow:0 1px 2px rgba(15,27,68,.05),0 8px 28px rgba(15,27,68,.06)}
-@media (prefers-color-scheme:dark){:root{--bg:#070d22;--surface:#0d1630;--card:#111c3d;--fg:#cbd5e8;--head:#fff;--mute:#94a3c0;--line:#1c2850;--brand:#8eaaf5;--brand-soft:#12204d;--warn:#fbbf24;--warn-bg:#2a1d05;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 28px rgba(0,0,0,.25)}}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Devanagari",sans-serif;-webkit-text-size-adjust:100%}
+:root{--bg:#f3f5fb;--surface:#fff;--card:#f6f8fd;--fg:#334155;--head:#0f1b44;--mute:#64748b;--line:#e3e8f2;--brand:#1b3a99;--brand-soft:#eaf0ff;--accent:#f26a00;--gold:#ffc531;--warn:#b45309;--warn-bg:#fffbeb;--shadow:0 1px 2px rgba(15,27,68,.05),0 10px 30px rgba(15,27,68,.07)}
+@media (prefers-color-scheme:dark){:root{--bg:#070d22;--surface:#0d1630;--card:#111c3d;--fg:#cbd5e8;--head:#fff;--mute:#94a3c0;--line:#1c2850;--brand:#8eaaf5;--brand-soft:#12204d;--warn:#fbbf24;--warn-bg:#2a1d05;--shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.28)}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Devanagari",sans-serif;overflow-wrap:break-word;min-height:100vh;display:flex;flex-direction:column}
+img{max-width:100%;height:auto}
+.wrap{flex:1 0 auto;width:100%}
 a{color:var(--brand);text-underline-offset:3px}
-header.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid var(--line)}
-.bar{max-width:68rem;margin:0 auto;padding:.65rem 1rem;display:flex;justify-content:space-between;align-items:center;gap:1rem}
-.brand{display:flex;align-items:center;gap:.65rem;text-decoration:none;color:var(--head);font-weight:800;font-size:1.12rem;letter-spacing:-.01em}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:.4rem}
+.skip{position:absolute;left:-999px;top:.5rem;background:var(--head);color:var(--surface);padding:.5rem 1rem;border-radius:.5rem;z-index:100}
+.skip:focus{left:.5rem}
+.progress{position:fixed;left:0;top:0;height:3px;width:100%;z-index:60;pointer-events:none}
+.progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--accent))}
+header.top{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--surface) 90%,transparent);backdrop-filter:saturate(1.5) blur(14px);-webkit-backdrop-filter:saturate(1.5) blur(14px);border-bottom:1px solid var(--line)}
+.bar{max-width:70rem;margin:0 auto;padding:.6rem 1rem;display:flex;justify-content:space-between;align-items:center;gap:.8rem}
+.brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--head);font-weight:800;font-size:1.15rem;letter-spacing:-.01em;min-width:0}
 .brand img{width:2.5rem;height:2.5rem;flex:none;filter:drop-shadow(0 2px 6px rgba(20,54,154,.3))}
 .brand span span{color:var(--accent)}
-nav.main{display:none;gap:.2rem}
-@media(min-width:56rem){nav.main{display:flex}}
-nav.main a{padding:.4rem .75rem;border-radius:.6rem;color:var(--fg);text-decoration:none;font-size:.9rem;font-weight:500}
-nav.main a:hover,nav.main a.on{background:var(--brand-soft);color:var(--brand)}
-button.lang{border:1px solid var(--line);background:var(--surface);color:var(--head);border-radius:999px;padding:.38rem .9rem;font:inherit;font-size:.85rem;font-weight:600;cursor:pointer;box-shadow:var(--shadow)}
-button.lang:hover{border-color:var(--brand)}
-.band{background:radial-gradient(1200px 400px at 85% -10%,rgba(255,197,49,.22),transparent 60%),linear-gradient(135deg,#0f2258 0%,#14369a 55%,#2a4cb8 100%);color:#fff}
-.band .in{max-width:68rem;margin:0 auto;padding:2.2rem 1rem 2.6rem}
-.band.hero .in{padding:3.4rem 1rem 4rem}
-.herorow{display:flex;align-items:center;justify-content:space-between;gap:2rem}
-.herologo{display:none;width:15rem;height:15rem;flex:none;filter:drop-shadow(0 18px 40px rgba(0,0,0,.4))}
-@media(min-width:52rem){.herologo{display:block}}
-.eyebrow{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem}
-h1{font-size:clamp(1.8rem,4.4vw,2.5rem);line-height:1.18;margin:.1rem 0 .5rem;letter-spacing:-.015em}
+.right{display:flex;align-items:center;gap:.5rem}
+nav.main{display:none}
+nav.main a{display:block;padding:.45rem .8rem;border-radius:.65rem;color:var(--fg);text-decoration:none;font-size:.9rem;font-weight:500;white-space:nowrap}
+nav.main a:hover{background:var(--brand-soft);color:var(--brand)}
+nav.main a[aria-current=page]{background:var(--brand-soft);color:var(--brand);font-weight:700}
+@media(min-width:62rem){nav.main{display:flex;gap:.15rem}}
+button.lang,button.menu{border:1px solid var(--line);background:var(--surface);color:var(--head);border-radius:999px;font:inherit;font-weight:600;cursor:pointer;box-shadow:var(--shadow);transition:border-color .15s}
+button.lang{padding:.4rem .9rem;font-size:.84rem}
+button.menu{width:2.5rem;height:2.5rem;display:grid;place-items:center;padding:0}
+button.lang:hover,button.menu:hover{border-color:var(--brand)}
+button.menu svg{width:1.3rem;height:1.3rem}
+button.menu .x{display:none}header.top.open button.menu .x{display:block}header.top.open button.menu .b{display:none}
+@media(min-width:62rem){button.menu{display:none}}
+@media(max-width:61.99rem){header.top.open nav.main{display:flex;flex-direction:column;gap:.15rem;position:absolute;left:0;right:0;top:100%;background:var(--surface);border-bottom:1px solid var(--line);padding:.6rem 1rem 1rem;box-shadow:0 18px 30px rgba(15,27,68,.12);max-height:calc(100vh - 4rem);overflow:auto}
+header.top.open nav.main a{padding:.8rem .9rem;font-size:1rem}}
+.band{background:radial-gradient(1000px 420px at 88% -15%,rgba(255,197,49,.25),transparent 60%),radial-gradient(700px 300px at 0% 110%,rgba(242,106,0,.16),transparent 60%),linear-gradient(135deg,#0c1d4f 0%,#14369a 55%,#2a4cb8 100%);color:#fff;position:relative;overflow:hidden}
+.band::after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1px);background-size:22px 22px;mask-image:linear-gradient(180deg,#000,transparent 85%);-webkit-mask-image:linear-gradient(180deg,#000,transparent 85%);pointer-events:none}
+.band .in{max-width:70rem;margin:0 auto;padding:2.2rem 1rem 3rem;position:relative;z-index:1}
+.band.hero .in{padding:3rem 1rem 4.2rem}
+.crumbs{font-size:.84rem;color:#b9c9f3;margin-bottom:.6rem}.crumbs a{color:#dbe6ff;text-decoration:none}.crumbs a:hover{text-decoration:underline}
+.eyebrow{display:inline-block;font-size:.76rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem}
+h1{font-size:clamp(1.75rem,4.6vw,2.6rem);line-height:1.18;margin:.1rem 0 .5rem;letter-spacing:-.015em}
 .band h1{color:#fff;margin:0}
-.band.hero h1{font-size:clamp(2.2rem,6vw,3.4rem)}
-.lead{max-width:40rem;color:#dbe6ff;font-size:1.08rem;margin:.9rem 0 0}
-.meta{display:flex;flex-wrap:wrap;gap:.45rem;margin:1rem 0 0}
-.chip{border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.1);color:#eaf0ff;border-radius:999px;padding:.18rem .75rem;font-size:.8rem}
-.wrap{max-width:68rem;margin:-1.6rem auto 0;padding:0 1rem 3rem;display:grid;gap:1.5rem;grid-template-columns:minmax(0,1fr);position:relative}
+.band.hero h1{font-size:clamp(2.3rem,7vw,3.6rem)}
+.lead{max-width:38rem;color:#dbe6ff;font-size:clamp(1rem,2.4vw,1.12rem);margin:.9rem 0 0}
+.herorow{display:flex;align-items:center;justify-content:space-between;gap:2rem}
+.herologo{display:none;width:15rem;height:15rem;flex:none;filter:drop-shadow(0 20px 40px rgba(0,0,0,.4));animation:float 6s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-8px)}}
+@media(min-width:52rem){.herologo{display:block}}
+@media(prefers-reduced-motion:reduce){.herologo{animation:none}html{scroll-behavior:auto}}
+.meta{display:flex;flex-wrap:wrap;gap:.45rem;margin:1.1rem 0 0}
+.chip{border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.1);color:#eaf0ff;border-radius:999px;padding:.2rem .8rem;font-size:.8rem}
+.badges{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.5rem 0 0}
+.badge{display:flex;align-items:center;gap:.5rem;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.09);border-radius:.85rem;padding:.45rem .8rem;font-size:.85rem;color:#fff}
+.badge svg{width:1.1rem;height:1.1rem;color:var(--gold);flex:none}
+.wrap{max-width:70rem;margin:-1.8rem auto 0;padding:0 1rem 3rem;display:grid;gap:1.4rem;grid-template-columns:minmax(0,1fr);position:relative;z-index:2}
 @media(min-width:60rem){.wrap.has-toc{grid-template-columns:15.5rem minmax(0,1fr)}}
-main{background:var(--surface);border:1px solid var(--line);border-radius:1.25rem;padding:1.4rem 1.25rem 1.6rem;box-shadow:var(--shadow)}
+main{background:var(--surface);border:1px solid var(--line);border-radius:1.25rem;padding:1.3rem 1.1rem 1.5rem;box-shadow:var(--shadow);min-width:0}
 @media(min-width:40rem){main{padding:2.2rem 2.4rem 2.4rem}}
-aside.toc{font-size:.88rem}
-@media(min-width:60rem){aside.toc{position:sticky;top:4.6rem;align-self:start;max-height:calc(100vh - 6rem);overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:1rem;padding:1rem .6rem 1rem .9rem;box-shadow:var(--shadow)}}
+aside.toc{font-size:.88rem;min-width:0}
+@media(min-width:60rem){aside.toc{position:sticky;top:4.8rem;align-self:start;max-height:calc(100vh - 6rem);overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:1rem;padding:1rem .6rem 1rem .9rem;box-shadow:var(--shadow)}}
 aside.toc b{display:block;color:var(--head);margin:0 0 .4rem .3rem}
 aside.toc ol{list-style:none;margin:0;padding:0}
-aside.toc li{margin:0}aside.toc a{display:block;padding:.28rem .6rem;border-radius:.5rem;text-decoration:none;color:var(--fg);line-height:1.4}
+aside.toc li{margin:0}aside.toc a{display:block;padding:.3rem .6rem;border-radius:.5rem;text-decoration:none;color:var(--fg);line-height:1.4}
 aside.toc a:hover{color:var(--brand);background:var(--brand-soft)}
 aside.toc a.on{color:var(--brand);background:var(--brand-soft);font-weight:600}
-details.tocm{border:1px solid var(--line);border-radius:.9rem;padding:.65rem .95rem;background:var(--surface);box-shadow:var(--shadow)}
+details.tocm{border:1px solid var(--line);border-radius:.9rem;padding:.7rem .95rem;background:var(--surface);box-shadow:var(--shadow)}
+details.tocm summary{cursor:pointer}
 details.tocm ol{list-style:none;padding:0;margin:.5rem 0 0}
 @media(min-width:60rem){details.tocm{display:none}}
 @media(max-width:59.99rem){aside.toc>div.deskonly{display:none}}
-h2{color:var(--head);font-size:1.28rem;line-height:1.3;margin:2.4rem 0 .6rem;scroll-margin-top:5rem;padding-top:1.4rem;border-top:1px solid var(--line)}
+h2{color:var(--head);font-size:clamp(1.15rem,3vw,1.3rem);line-height:1.3;margin:2.4rem 0 .6rem;scroll-margin-top:5rem;padding-top:1.4rem;border-top:1px solid var(--line)}
 h2:first-of-type{border-top:0;padding-top:0;margin-top:1.6rem}
 p{margin:.65rem 0}ul,ol{padding-left:1.3rem}li{margin:.4rem 0}li::marker{color:var(--accent)}
-.glance{background:var(--brand-soft);border:1px solid color-mix(in srgb,var(--brand) 25%,transparent);border-left:4px solid var(--accent);border-radius:1rem;padding:1rem 1.3rem;margin:.4rem 0 1rem}
+.glance{background:var(--brand-soft);border:1px solid color-mix(in srgb,var(--brand) 25%,transparent);border-left:4px solid var(--accent);border-radius:1rem;padding:1rem 1.2rem;margin:.4rem 0 1rem}
 .glance h3{margin:0 0 .3rem;color:var(--head);font-size:1rem}.glance ul{margin:.3rem 0 0}
 .note,.warn{border-radius:.9rem;padding:.85rem 1.1rem;margin:1.1rem 0;border:1px solid var(--line);background:var(--card)}
 .warn{background:var(--warn-bg);border-color:color-mix(in srgb,var(--warn) 40%,transparent)}
-.tw{overflow-x:auto;margin:1.1rem 0;border:1px solid var(--line);border-radius:.9rem}
+.tw{overflow-x:auto;margin:1.1rem 0;border:1px solid var(--line);border-radius:.9rem;-webkit-overflow-scrolling:touch}
 table{border-collapse:collapse;width:100%;min-width:32rem;font-size:.92rem}
 th,td{text-align:left;vertical-align:top;padding:.65rem .85rem;border-bottom:1px solid var(--line)}
 th{background:var(--card);color:var(--head);font-weight:700}tr:last-child td{border-bottom:0}
-.cards{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));margin:1.4rem 0 .6rem}
+.cards{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr));margin:1.4rem 0 .6rem}
 .card{border:1px solid var(--line);border-radius:1.1rem;padding:1.15rem 1.2rem;background:var(--surface);text-decoration:none;display:block;color:var(--fg);transition:transform .18s,box-shadow .18s,border-color .18s}
 .card:hover{transform:translateY(-3px);border-color:var(--brand);box-shadow:var(--shadow)}
 .card b{display:block;color:var(--head);margin:.55rem 0 .15rem;font-size:1.04rem}
 .card span.d{font-size:.92rem;color:var(--mute);display:block}
 .ic{display:grid;place-items:center;width:2.6rem;height:2.6rem;border-radius:.8rem;background:var(--brand-soft);color:var(--brand)}
 .ic svg{width:1.4rem;height:1.4rem}
-footer.site{background:#0a1638;color:#aab8dc;margin-top:1rem}
-footer.site .in{max-width:68rem;margin:0 auto;padding:2rem 1rem 1.6rem;display:grid;gap:1.4rem}
-@media(min-width:44rem){footer.site .in{grid-template-columns:1.3fr 1fr}}
-footer.site a{color:#dbe6ff;text-decoration:none}footer.site a:hover{text-decoration:underline}
-footer.site .fb{display:flex;align-items:center;gap:.6rem;color:#fff;font-weight:800;font-size:1.05rem}
-footer.site .fb img{width:2.4rem;height:2.4rem}
-footer.site nav{display:flex;flex-wrap:wrap;gap:.45rem 1.2rem;font-size:.92rem}
-footer.site small{display:block;grid-column:1/-1;border-top:1px solid #1c2850;padding-top:1rem;font-size:.82rem;color:#8396c4}
+.cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;background:linear-gradient(135deg,#0f2258,#14369a);color:#fff;border-radius:1.1rem;padding:1.2rem 1.4rem;margin:1.4rem 0 .4rem}
+.cta b{display:block;font-size:1.1rem}.cta span{color:#dbe6ff;font-size:.92rem}
+.btn{display:inline-block;background:var(--gold);color:#1a1300;font-weight:700;text-decoration:none;padding:.65rem 1.2rem;border-radius:.75rem;transition:transform .15s,filter .15s}
+.btn:hover{transform:translateY(-1px);filter:brightness(1.05)}
+.pn{display:grid;gap:.8rem;grid-template-columns:1fr;margin-top:2.4rem;padding-top:1.4rem;border-top:1px solid var(--line)}
+@media(min-width:36rem){.pn{grid-template-columns:1fr 1fr}}
+.pn a{display:block;border:1px solid var(--line);border-radius:.9rem;padding:.8rem 1rem;text-decoration:none;color:var(--head);font-weight:600;transition:border-color .15s,background .15s}
+.pn a:hover{border-color:var(--brand);background:var(--brand-soft)}
+.pn small{display:block;font-weight:500;color:var(--mute);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em}
+.pn a.next{text-align:right}
+footer.site{background:#091433;color:#a9b8de;margin-top:1rem;position:relative}
+footer.site::before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,var(--gold),var(--accent),var(--gold))}
+footer.site .in{max-width:70rem;margin:0 auto;padding:2.6rem 1rem 1.4rem;display:grid;gap:2rem;grid-template-columns:1fr}
+@media(min-width:44rem){footer.site .in{grid-template-columns:1fr 1fr}}
+@media(min-width:64rem){footer.site .in{grid-template-columns:1.5fr 1fr 1fr 1.2fr}}
+footer.site h4{color:#fff;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;margin:0 0 .8rem}
+footer.site a{color:#cfdbff;text-decoration:none}footer.site a:hover{color:#fff;text-decoration:underline}
+footer.site ul{list-style:none;padding:0;margin:0}footer.site li{margin:.5rem 0}
+footer.site .fb{display:flex;align-items:center;gap:.7rem;color:#fff;font-weight:800;font-size:1.2rem}
+footer.site .fb img{width:2.8rem;height:2.8rem}
+footer.site .fb span span{color:var(--gold)}
+footer.site p{margin:.8rem 0 0;font-size:.92rem;max-width:26rem}
+footer.site .mail{display:inline-block;margin-top:.2rem;word-break:break-all}
+footer.site .bottom{grid-column:1/-1;border-top:1px solid #1c2850;padding-top:1.1rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:.6rem 1.5rem;font-size:.82rem;color:#8396c4}
+.totop{position:fixed;right:1rem;bottom:1rem;width:2.8rem;height:2.8rem;border-radius:50%;border:0;background:var(--brand);color:#fff;display:grid;place-items:center;cursor:pointer;box-shadow:0 8px 20px rgba(15,27,68,.35);opacity:0;pointer-events:none;transform:translateY(8px);transition:.2s;z-index:40}
+.totop.show{opacity:1;pointer-events:auto;transform:none}
+.totop svg{width:1.3rem;height:1.3rem}
 html:not(.hi) [data-l=hi]{display:none!important}html.hi [data-l=en]{display:none!important}
-@media print{header.top,aside.toc,details.tocm,button.lang,footer.site{display:none}.band{background:none;color:#000}.band h1{color:#000}.chip{border-color:#999;color:#000;background:none}.wrap{display:block;margin:0}main{border:0;box-shadow:none;padding:0}a{color:inherit}}
+@media print{header.top,aside.toc,details.tocm,button.lang,footer.site,.totop,.progress,.pn,.cta,.skip{display:none}.band{background:none;color:#000}.band::after{display:none}.band h1{color:#000}.chip,.badge{border-color:#999;color:#000;background:none}.wrap{display:block;margin:0}main{border:0;box-shadow:none;padding:0}a{color:inherit}}
 </style></head><body>
-<header class="top"><div class="bar"><a class="brand" href="index.html"><img src="logo.png" alt="" width="40" height="40"><span>Taiyari<span>Kosh</span></span></a>
-<nav class="main" aria-label="Policies"><a href="privacy.html"><span data-l="en">Privacy Policy</span><span data-l="hi">प्राइवेसी पॉलिसी</span></a><a href="terms.html"><span data-l="en">Terms of Use</span><span data-l="hi">उपयोग की शर्तें</span></a><a href="refund.html"><span data-l="en">Refund &amp; Cancellation</span><span data-l="hi">रिफंड और कैंसिलेशन</span></a><a href="delete-account.html"><span data-l="en">Delete Account</span><span data-l="hi">अकाउंट डिलीट करें</span></a><a href="contact.html"><span data-l="en">Contact &amp; Grievance</span><span data-l="hi">संपर्क और शिकायत</span></a></nav>
-<button class="lang" id="lang" type="button" aria-label="Switch language / भाषा बदलें">EN / हिन्दी</button></div></header>
-<section class="band"><div class="in"><span class="eyebrow">TaiyariKosh</span><h1><span data-l="en">Delete your account</span><span data-l="hi">अपना अकाउंट डिलीट करें</span></h1><div class="meta"><span class="chip"><span data-l="en">Effective 8 November 2026</span><span data-l="hi">लागू: 8 November 2026</span></span><span class="chip"><span data-l="en">Version 2.1</span><span data-l="hi">संस्करण 2.1</span></span><span class="chip"><span data-l="en">Applies to: TaiyariKosh app</span><span data-l="hi">लागू: TaiyariKosh ऐप</span></span></div></div></section>
-<div class="wrap has-toc"><aside class="toc"><div class="deskonly"><b data-l="en">On this page</b><b data-l="hi">इस पेज पर</b><ol data-l="en"><li><a href="#s1">1. Delete inside the app (recommended)</a></li><li><a href="#s2">2. Cannot sign in? Ask us</a></li><li><a href="#s3">3. What is deleted</a></li><li><a href="#s4">4. What may be kept, and for how long</a></li><li><a href="#s5">5. Delete only some data</a></li></ol><ol data-l="hi"><li><a href="#s1-hi">1. ऐप के अंदर डिलीट करें (अनुशंसित)</a></li><li><a href="#s2-hi">2. साइन-इन नहीं हो रहा? हमसे कहें</a></li><li><a href="#s3-hi">3. क्या डिलीट होता है</a></li><li><a href="#s4-hi">4. क्या रखा जा सकता है और कितने समय</a></li><li><a href="#s5-hi">5. सिर्फ़ कुछ डेटा डिलीट करना</a></li></ol></div><details class="tocm"><summary><b data-l="en">On this page</b><b data-l="hi">इस पेज पर</b></summary><ol data-l="en"><li><a href="#s1">1. Delete inside the app (recommended)</a></li><li><a href="#s2">2. Cannot sign in? Ask us</a></li><li><a href="#s3">3. What is deleted</a></li><li><a href="#s4">4. What may be kept, and for how long</a></li><li><a href="#s5">5. Delete only some data</a></li></ol><ol data-l="hi"><li><a href="#s1-hi">1. ऐप के अंदर डिलीट करें (अनुशंसित)</a></li><li><a href="#s2-hi">2. साइन-इन नहीं हो रहा? हमसे कहें</a></li><li><a href="#s3-hi">3. क्या डिलीट होता है</a></li><li><a href="#s4-hi">4. क्या रखा जा सकता है और कितने समय</a></li><li><a href="#s5-hi">5. सिर्फ़ कुछ डेटा डिलीट करना</a></li></ol></details></aside><main>
+<a class="skip" href="#content">Skip to content</a>
+<div class="progress" aria-hidden="true"><i></i></div>
+<header class="top" id="top"><div class="bar"><a class="brand" href="index.html" aria-label="TaiyariKosh policies home"><img src="logo.png" alt="" width="40" height="40"><span>Taiyari<span>Kosh</span></span></a>
+<nav class="main" aria-label="Policies"><a href="privacy.html"><span data-l="en">Privacy Policy</span><span data-l="hi">प्राइवेसी पॉलिसी</span></a><a href="terms.html"><span data-l="en">Terms of Use</span><span data-l="hi">उपयोग की शर्तें</span></a><a href="refund.html"><span data-l="en">Refund &amp; Cancellation</span><span data-l="hi">रिफंड और कैंसिलेशन</span></a><a href="delete-account.html" aria-current="page"><span data-l="en">Delete Account</span><span data-l="hi">अकाउंट डिलीट करें</span></a><a href="contact.html"><span data-l="en">Contact &amp; Grievance</span><span data-l="hi">संपर्क और शिकायत</span></a></nav>
+<div class="right"><button class="lang" id="lang" type="button" aria-label="Switch language / भाषा बदलें">EN / हिन्दी</button>
+<button class="menu" id="menu" type="button" aria-label="Menu" aria-expanded="false" aria-controls="top"><svg class="b" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div></div></header>
+<section class="band"><div class="in"><div class="crumbs"><a href="index.html"><span data-l="en">Home</span><span data-l="hi">होम</span></a> / <span data-l="en">Delete your account</span><span data-l="hi">अपना अकाउंट डिलीट करें</span></div><span class="eyebrow">TaiyariKosh</span><h1><span data-l="en">Delete your account</span><span data-l="hi">अपना अकाउंट डिलीट करें</span></h1><div class="meta"><span class="chip"><span data-l="en">Effective 8 November 2026</span><span data-l="hi">लागू: 8 November 2026</span></span><span class="chip"><span data-l="en">Version 2.1</span><span data-l="hi">संस्करण 2.1</span></span><span class="chip"><span data-l="en">Applies to: TaiyariKosh app</span><span data-l="hi">लागू: TaiyariKosh ऐप</span></span></div></div></section>
+<div class="wrap has-toc"><aside class="toc"><div class="deskonly"><b data-l="en">On this page</b><b data-l="hi">इस पेज पर</b><ol data-l="en"><li><a href="#s1">1. Delete inside the app (recommended)</a></li><li><a href="#s2">2. Cannot sign in? Ask us</a></li><li><a href="#s3">3. What is deleted</a></li><li><a href="#s4">4. What may be kept, and for how long</a></li><li><a href="#s5">5. Delete only some data</a></li></ol><ol data-l="hi"><li><a href="#s1-hi">1. ऐप के अंदर डिलीट करें (अनुशंसित)</a></li><li><a href="#s2-hi">2. साइन-इन नहीं हो रहा? हमसे कहें</a></li><li><a href="#s3-hi">3. क्या डिलीट होता है</a></li><li><a href="#s4-hi">4. क्या रखा जा सकता है और कितने समय</a></li><li><a href="#s5-hi">5. सिर्फ़ कुछ डेटा डिलीट करना</a></li></ol></div><details class="tocm"><summary><b data-l="en">On this page</b><b data-l="hi">इस पेज पर</b></summary><ol data-l="en"><li><a href="#s1">1. Delete inside the app (recommended)</a></li><li><a href="#s2">2. Cannot sign in? Ask us</a></li><li><a href="#s3">3. What is deleted</a></li><li><a href="#s4">4. What may be kept, and for how long</a></li><li><a href="#s5">5. Delete only some data</a></li></ol><ol data-l="hi"><li><a href="#s1-hi">1. ऐप के अंदर डिलीट करें (अनुशंसित)</a></li><li><a href="#s2-hi">2. साइन-इन नहीं हो रहा? हमसे कहें</a></li><li><a href="#s3-hi">3. क्या डिलीट होता है</a></li><li><a href="#s4-hi">4. क्या रखा जा सकता है और कितने समय</a></li><li><a href="#s5-hi">5. सिर्फ़ कुछ डेटा डिलीट करना</a></li></ol></details></aside><main id="content">
 <div class="glance" data-l="en"><h3>In short</h3><ul><li>You can delete your account and <b>all data linked to it</b> yourself, any time, inside the app.</li><li>Deletion happens <b>immediately</b> and cannot be undone. If autopay is on, it is cancelled first.</li><li>Cannot sign in? Email <a href="mailto:rzclassesgkp@gmail.com">rzclassesgkp@gmail.com</a> from your registered address and we will delete it for you.</li></ul></div>
 <div class="glance" data-l="hi"><h3>संक्षेप में</h3><ul><li>आप जब चाहें ऐप के अंदर खुद अपना अकाउंट और <b>उससे जुड़ा सारा डेटा</b> डिलीट कर सकते हैं।</li><li>डिलीशन <b>तुरंत</b> होता है और वापस नहीं लिया जा सकता। ऑटोपे चालू हो तो पहले वह कैंसिल होता है।</li><li>साइन-इन नहीं हो रहा? अपने रजिस्टर्ड पते से <a href="mailto:rzclassesgkp@gmail.com">rzclassesgkp@gmail.com</a> पर ईमेल करें; हम आपके लिए डिलीट कर देंगे।</li></ul></div>
 <p data-l="en">This page explains how to delete your <b>TaiyariKosh</b> account (a service of KS Infotech Labs) and the data linked to it. It is the account-deletion page for Google Play.</p><p data-l="hi">यह पेज बताता है कि अपना <b>TaiyariKosh</b> अकाउंट (KS Infotech Labs की सेवा) और उससे जुड़ा डेटा कैसे डिलीट करें। यह Google Play के लिए अकाउंट-डिलीशन पेज है।</p>
@@ -98,16 +148,28 @@ html:not(.hi) [data-l=hi]{display:none!important}html.hi [data-l=en]{display:non
 <ul data-l="hi"><li><b>भुगतान रिकॉर्ड</b> (राशि, तारीखें, Razorpay रेफ़रेंस ID) जिन्हें कर और लेखा कानूनों के कारण रखना ज़रूरी है। वे कानूनन आवश्यक अवधि तक <b>आपकी पहचान के बिना</b> (आपसे जुड़े नहीं) रखे जाते हैं।</li><li>हमारे होस्टिंग प्रदाता के <b>बैकअप</b> में डिलीट किया डेटा एक छोटी, सीमित अवधि तक एन्क्रिप्टेड रूप में रह सकता है, फिर हट जाता है; उसका उपयोग या बहाली नहीं होती।</li><li><b>हमारा पत्राचार</b> (आपके भेजे ईमेल) सिर्फ़ उतने समय रखा जाता है जितना आपका अनुरोध संभालने और उसका रिकॉर्ड रखने के लिए ज़रूरी हो।</li></ul>
 <h2 id="s5" data-l="en">5. Delete only some data</h2><h2 data-l="hi" id="s5-hi">5. सिर्फ़ कुछ डेटा डिलीट करना</h2>
 <p data-l="en">You can edit or clear the optional profile fields (gender, category, preferred medium) yourself in <b>Account</b>. To remove other specific data without deleting the whole account, email <a href="mailto:rzclassesgkp@gmail.com">rzclassesgkp@gmail.com</a> and tell us what to remove. Some data (such as your email and mobile number) is needed for the account to work.</p><p data-l="hi">आप <b>अकाउंट</b> में वैकल्पिक प्रोफ़ाइल फ़ील्ड (लिंग, वर्ग, पसंदीदा माध्यम) खुद बदल या खाली कर सकते हैं। पूरा अकाउंट डिलीट किए बिना कोई और खास डेटा हटाने के लिए <a href="mailto:rzclassesgkp@gmail.com">rzclassesgkp@gmail.com</a> पर ईमेल करके बताएँ कि क्या हटाना है। कुछ डेटा (जैसे आपका ईमेल और मोबाइल नंबर) अकाउंट चलने के लिए ज़रूरी है।</p>
-<div class="warn" data-l="en">Deleting your account is permanent. Your progress and any remaining paid time cannot be restored. If you only want to stop paying, cancel autopay instead (see the <a href="refund.html">Refund &amp; Cancellation page</a>).</div><div class="warn" data-l="hi">अकाउंट डिलीट करना स्थायी है। आपकी प्रगति और बची हुई पेड अवधि वापस नहीं लाई जा सकती। अगर आप सिर्फ़ भुगतान रोकना चाहते हैं, तो इसके बजाय ऑटोपे कैंसिल करें (<a href="refund.html">रिफंड व कैंसिलेशन पेज</a> देखें)।</div>
+<div class="warn" data-l="en">Deleting your account is permanent. Your progress and any remaining paid time cannot be restored. If you only want to stop paying, cancel autopay instead (see the <a href="refund.html">Refund &amp; Cancellation page</a>).</div><div class="warn" data-l="hi">अकाउंट डिलीट करना स्थायी है। आपकी प्रगति और बची हुई पेड अवधि वापस नहीं लाई जा सकती। अगर आप सिर्फ़ भुगतान रोकना चाहते हैं, तो इसके बजाय ऑटोपे कैंसिल करें (<a href="refund.html">रिफंड व कैंसिलेशन पेज</a> देखें)।</div><nav class="pn" aria-label="More policies"><a class="prev" href="refund.html"><small><span data-l="en">&larr; Previous</span><span data-l="hi">&larr; पिछला</span></small><span data-l="en">Refund &amp; Cancellation</span><span data-l="hi">रिफंड और कैंसिलेशन</span></a><a class="next" href="contact.html"><small><span data-l="en">Next &rarr;</span><span data-l="hi">अगला &rarr;</span></small><span data-l="en">Contact &amp; Grievance</span><span data-l="hi">संपर्क और शिकायत</span></a></nav>
 </main></div>
-<footer class="site"><div class="in"><div><div class="fb"><img src="logo.png" alt="" width="40" height="40"><span>TaiyariKosh</span></div>
-<p><span data-l="en">An independent exam-preparation app by KS Infotech Labs, India. Not affiliated with any government body or exam board.</span><span data-l="hi">KS Infotech Labs, भारत द्वारा बनाया गया एक स्वतंत्र परीक्षा-तैयारी ऐप। किसी सरकारी संस्था या परीक्षा बोर्ड से संबद्ध नहीं।</span></p></div>
-<nav aria-label="Footer"><a href="index.html"><span data-l="en">Home</span><span data-l="hi">होम</span></a><a href="privacy.html"><span data-l="en">Privacy Policy</span><span data-l="hi">प्राइवेसी पॉलिसी</span></a><a href="terms.html"><span data-l="en">Terms of Use</span><span data-l="hi">उपयोग की शर्तें</span></a><a href="refund.html"><span data-l="en">Refund &amp; Cancellation</span><span data-l="hi">रिफंड और कैंसिलेशन</span></a><a href="delete-account.html"><span data-l="en">Delete Account</span><span data-l="hi">अकाउंट डिलीट करें</span></a><a href="contact.html"><span data-l="en">Contact &amp; Grievance</span><span data-l="hi">संपर्क और शिकायत</span></a></nav>
-<small>© 2026 KS Infotech Labs. All rights reserved. <span data-l="en">Contact</span><span data-l="hi">संपर्क</span>: <a href="mailto:rzclassesgkp@gmail.com">rzclassesgkp@gmail.com</a></small></div></footer>
-<script>(function(){var k='lang',h=document.documentElement;
+<footer class="site"><div class="in">
+<div><div class="fb"><img src="logo.png" alt="" width="40" height="40"><span>Taiyari<span>Kosh</span></span></div><p><span data-l="en">An independent exam-preparation app by KS Infotech Labs, India. Not affiliated with any government body or exam board.</span><span data-l="hi">KS Infotech Labs, भारत द्वारा बनाया गया एक स्वतंत्र परीक्षा-तैयारी ऐप। किसी सरकारी संस्था या परीक्षा बोर्ड से संबद्ध नहीं।</span></p></div>
+<div><h4><span data-l="en">Policies</span><span data-l="hi">पॉलिसी</span></h4><ul><li><a href="privacy.html"><span data-l="en">Privacy Policy</span><span data-l="hi">प्राइवेसी पॉलिसी</span></a></li><li><a href="terms.html"><span data-l="en">Terms of Use</span><span data-l="hi">उपयोग की शर्तें</span></a></li><li><a href="refund.html"><span data-l="en">Refund &amp; Cancellation</span><span data-l="hi">रिफंड और कैंसिलेशन</span></a></li></ul></div>
+<div><h4><span data-l="en">Account &amp; help</span><span data-l="hi">अकाउंट और सहायता</span></h4><ul><li><a href="index.html"><span data-l="en">Policy home</span><span data-l="hi">पॉलिसी होम</span></a></li><li><a href="delete-account.html" aria-current="page"><span data-l="en">Delete Account</span><span data-l="hi">अकाउंट डिलीट करें</span></a></li><li><a href="contact.html"><span data-l="en">Contact &amp; Grievance</span><span data-l="hi">संपर्क और शिकायत</span></a></li></ul></div>
+<div><h4><span data-l="en">Get in touch</span><span data-l="hi">संपर्क करें</span></h4><ul><li><a href="mailto:rzclassesgkp@gmail.com">rzclassesgkp@gmail.com</a></li><li><a href="contact.html"><span data-l="en">Grievance Officer</span><span data-l="hi">शिकायत अधिकारी</span></a></li>
+<li><a href="https://taiyarikosh.com" rel="noopener"><span data-l="en">Books &amp; notes store</span><span data-l="hi">किताबें और नोट्स स्टोर</span> &rarr;</a></li></ul></div>
+<div class="bottom"><span>© 2026 KS Infotech Labs. <span data-l="en">All rights reserved.</span><span data-l="hi">सर्वाधिकार सुरक्षित।</span></span><span><span data-l="en">TaiyariKosh is a product of KS Infotech Labs, India.</span><span data-l="hi">TaiyariKosh, KS Infotech Labs, भारत का उत्पाद है।</span> · v2.1</span></div>
+</div></footer>
+<button class="totop" id="totop" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script>(function(){var k='lang',d=document,h=d.documentElement,hd=d.getElementById('top'),m=d.getElementById('menu');
 function set(hi){h.classList.toggle('hi',hi);h.lang=hi?'hi':'en';try{localStorage.setItem(k,hi?'hi':'en')}catch(e){}}
 try{if(localStorage.getItem(k)==='hi')set(true)}catch(e){}
-document.getElementById('lang').addEventListener('click',function(){set(!h.classList.contains('hi'))});
-if('IntersectionObserver' in window){var links=[].slice.call(document.querySelectorAll('aside.toc a'));
+d.getElementById('lang').addEventListener('click',function(){set(!h.classList.contains('hi'))});
+m.addEventListener('click',function(){var o=hd.classList.toggle('open');m.setAttribute('aria-expanded',o)});
+d.addEventListener('keydown',function(e){if(e.key==='Escape'&&hd.classList.contains('open')){hd.classList.remove('open');m.setAttribute('aria-expanded','false');m.focus()}});
+d.querySelectorAll('nav.main a').forEach(function(a){a.addEventListener('click',function(){hd.classList.remove('open')})});
+var bar=d.querySelector('.progress i'),tt=d.getElementById('totop');
+function onS(){var y=h.scrollTop||d.body.scrollTop,t=h.scrollHeight-h.clientHeight;if(bar)bar.style.width=(t>0?y/t*100:0)+'%';tt.classList.toggle('show',y>700)}
+addEventListener('scroll',onS,{passive:true});onS();
+tt.addEventListener('click',function(){scrollTo({top:0,behavior:'smooth'})});
+if('IntersectionObserver' in window){var links=[].slice.call(d.querySelectorAll('aside.toc a'));
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-15% 0px -75% 0px'});
-document.querySelectorAll('main h2[id]').forEach(function(x){io.observe(x)})}})();</script></body></html>
+d.querySelectorAll('main h2[id]').forEach(function(x){io.observe(x)})}})();</script></body></html>

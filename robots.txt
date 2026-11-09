@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rzclassesgkp.github.io/taiyarikosh-legal/sitemap.xml
